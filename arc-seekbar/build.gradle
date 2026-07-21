@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
 
 
@@ -33,4 +33,4 @@ ext {
 }
 
 // 上传脚本，加入了自动配置策略
-apply from: "http://plugin.gcssloop.com/gcs-upload.gradle"
+// (kaldirildi) apply from: olu http://plugin.gcssloop.com
